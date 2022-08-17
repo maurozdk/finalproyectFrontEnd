@@ -14,11 +14,10 @@ nav{
 .navigation{
     display: inline-flex;
     margin: 0 0 0 15px;
-    justify-content: space-between;
-
 }
+
 .perfilfoto{
-    display: inline-block;
+    display: flex;
     text-align: center;
     padding-top: 12px;
 }
@@ -50,8 +49,20 @@ nav{
     width: 100%
 }
 
-.nombre-principal{
+.informacion-principal{
     position:relative;
-    margin-top: 45px;
     text-align: center;
+}
+
+.nombre-principal{
+    margin-top: 45px;
+}
+
+.carrera-principal{
+    margin: 10px 0 0 0;
+}
+
+.acercademi{
+    margin-top: 20px;
+    margin-left: 15px;
 }
