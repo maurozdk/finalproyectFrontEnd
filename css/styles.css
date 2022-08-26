@@ -1,7 +1,16 @@
+
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+}
 .portadaprincipal{
     padding: 5px 10px 5px 10px;
     border: 5px;
     border-radius:2px;
+    height: 400px;
 }
 .portada{
     width: 100%;
@@ -23,15 +32,17 @@ nav{
 }
 
 .fa {
+    display: inline-block;
     padding: 12px;
     font-size: 30px;
     width: 30px;
-    text-align: end;
+    text-align: right;
     text-decoration: none;
     border-radius: 50%;
   }
 
 #caja-perfil{
+    height: max-content;
     width: auto;
     display: flex;
     justify-content: center;
@@ -55,14 +66,61 @@ nav{
 }
 
 .nombre-principal{
-    margin-top: 45px;
+    border-top: 45px;
 }
 
 .carrera-principal{
     margin: 10px 0 0 0;
 }
 
+.caja-acercademi{
+    height: 300px;
+    background-color: lightgrey;
+
+}
+
 .acercademi{
-    margin-top: 20px;
-    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    border-top: 32px solid;
+    border-color: lightgrey;
+
+}
+.titulo-acercademi{
+    font-weight:bold;
+    font-family:'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+    border-top: 20px solid lightgrey;
+
+}
+
+.info-acercademi{
+    font-family:'Roboto Mono', monospace;
+    font-weight:bolder;
+    font-size: 14px;
+    text-size-adjust:initial;
+    margin: 37px 35px 0px 35px;
+    word-spacing: 2px;
+    line-height: 19px;
+}
+
+.caja-resumen{
+    height: 400px;
+    background-color: #E6E6E6;
+}
+
+.miresumen{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    border-top: 20px solid #E6E6E6;
+    
+}
+
+.caja-portfolio{
+    height: 300px
 }
